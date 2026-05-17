@@ -210,6 +210,7 @@ unset($name);
 		}, array_keys($legacy_sql_info)),
         $legacy_sql_info
 	);
+	$sql_info['db'] = $sql_info['defaultdb'];
 }
 else // New e107_config.php format. v2.4+
 {
